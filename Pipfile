@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+scrapy = "*"
+pandas = "*"
+xlsxwriter = "*"
+openpyxl = "*"
+scrapy-sessions = "*"
+selenium = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
